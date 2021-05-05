@@ -1,5 +1,5 @@
 
-    *{ margin: 0;
+  *{ margin: 0;
      padding: 0;
     } 
     body{
@@ -119,4 +119,27 @@ li button
   border-radius: 100%;
   display: inline-block;
   text-align: center;
+  margin-right:2%;
 }
+@media only screen and (max-width: 800px){
+body
+    {background-image: url(./todoc.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ; }
+        
+        .notcompleted ,.completed
+        {
+          margin: 32px ;
+          padding: 20px;
+          margin-left:-1px;
+     
+        }
+        
+        h3{
+            color:black
+          }
+        
+        
+        
+
+ }
